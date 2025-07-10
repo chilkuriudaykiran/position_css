@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            font-size: 51px;
+            position: fixed;
+            display: block;
+            width: 100%;
+            z-index: 1;
+            background-color: rgb(238, 236, 231);
+        }
+
+        .header1 {
+            float: right;
+            padding-left: 360px;
+            display: inline-block;
+            
+
+        }
+
+        .header11 {
+
+            padding: 8px 16px;
+            display: inline-block;
+            width: auto;
+
+
+        }
+
+        .section12 {
+
+            left: 40%;
+            top: 30%;
+            color: aliceblue;
+            font-size: 80px;
+            position: absolute;
+
+        }
+
+        b {
+            background-color: black;
+            padding: 30px;
+
+        }
+
+        .img {
+            width: 100%;
+            height: 1300px;
+            position: relative;
+        }
+
+        .section2 {
+            padding-left: 4px;
+            padding-bottom: 100px;
+            padding-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        .houses,
+        .houses1 {
+            display: flex;
+            width: 9600px;
+
+        }
+
+        .text {
+            position: absolute;
+            background-color: black;
+            padding-left: 24px;
+            padding-right: 25px;
+            color: white;
+            font-size: 25px;
+        }
+
+        .image {
+            position: relative;
+            padding: 5px;
+            margin: 10px;
+
+
+        }
+
+        img {
+            width: 1100px;
+        }
+
+        .section3 {
+            display: flex;
+
+        }
+
+        .text1 {
+            font-size: 57px;
+        }
+
+        .box1,
+        .box2,
+        .box3,
+        .box4 {
+            padding: 8px;
+            margin: 8px;
+            font-size: 50px;
+        }
+
+        .inp {
+            font-size: 35px;
+            padding-left: 10px;
+            padding-right: 85%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin: 20px;
+
+        }
+
+        button {
+            font-size: 25px;
+            padding: 30px;
+            background-color: black;
+            color: whitesmoke;
+
+        }
+
+        .footer {
+            padding-top: 5%;
+            padding-left: 5%;
+            padding-right: 40;
+
+        }
+
+        h1 {
+            font-size: 70px;
+        }
+
+        .but {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <strong>B R</strong> Architect
+        <div class="header1">
+            <a href="Projects" class="header11">Project</a>
+            <a href="About" class="header11">About</a>
+            <a href="Contact" class="header11">Contact</a>
+        </div>
+    </div>
+    <div class="section1">
+        <div><img class="img" src="https://www.w3schools.com/w3images/architect.jpg" alt="error"></div>
+        <div class="section12">
+            <b>B R</b>Architect
+        </div>
+
+    </div>
+    <h1>Projects</h1>
+    <div class="section2">
+        <div class="houses">
+
+            <div class="image">
+                <div class="text">
+                    <h3>Summer House</h3>
+                </div>
+                <img src="https://www.w3schools.com/w3images/house5.jpg" alt="error">
+            </div>
+            <div class="image">
+                <div class="text">
+                    <h3>Brick House</h3>
+                </div>
+                <img src="https://www.w3schools.com/w3images/house2.jpg" alt="error">
+            </div>
+            <div class="image">
+                <div class="text">
+                    <h3>Renovated</h3>
+                </div>
+                <img src="https://www.w3schools.com/w3images/house3.jpg" alt="error">
+            </div>
+            <div class="image">
+                <div class="text">
+                    <h3>Barn House</h3>
+                </div>
+                <img src="https://www.w3schools.com/w3images/house4.jpg" alt="error">
+            </div>
+        </div>
+        <div class="houses1">
+            <div class="image">
+                <div class="text">
+                    <h3>Summer House</h3>
+                </div>
+                <img src="https://www.w3schools.com/w3images/house2.jpg" alt="eroor">
+            </div>
+            <div class="image">
+                <div class="text">
+                    <h3>Brick House</h3>
+                </div>
+                <img src="https://www.w3schools.com/w3images/house5.jpg" alt="eroor">
+            </div>
+            <div class="image">
+                <div class="text">
+                    <h3>Barn House</h3>
+                </div>
+                <img src="https://www.w3schools.com/w3images/house4.jpg" alt="eroor">
+            </div>
+            <div class="image">
+                <div class="text">
+                    <h3>Renovated</h3>
+                </div>
+                <img src="https://www.w3schools.com/w3images/house3.jpg" alt="eroor">
+            </div>
+        </div>
+    </div>
+    <h1>About</h1>
+    <div class="text1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+    </div>
+    <div class="section3">
+        <div class="box1">
+            <img src="https://www.w3schools.com/w3images/team2.jpg" alt="error">
+            <h1>John Doe</h1>
+            <br>
+            <h2>CEO & Founder</h2>
+            <br>
+            <p>Phsellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+            <h3 style="background-color: lightgray; text-align:center">Contact</h3>
+        </div>
+        <div class="box2">
+            <img src="https://www.w3schools.com/w3images/team1.jpg" alt="error">
+            <h1>Jane Doe</h1>
+            <br>
+            <h2>Architect</h2>
+            <br>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <h3 style="background-color: lightgray; text-align:center">Contact</h3>
+        </div>
+        <div class="box3">
+            <img src="https://www.w3schools.com/w3images/team3.jpg" alt="error">
+            <h1>Mike Ross</h1>
+            <br>
+            <h2>Architect</h2>
+            <br>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <h3 style="background-color: lightgray; text-align:center">Contact</h3>
+        </div>
+        <div class="box4">
+            <img src="https://www.w3schools.com/w3images/team4.jpg" alt="error">
+            <h1>Dan Star</h1>
+            <br>
+            <h2>Architect</h2>
+            <br>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <h3 style="background-color: lightgray; text-align:center">Contact</h3>
+        </div>
+
+    </div>
+    <h1>Contact</h1>
+    <div class="secton4">
+        <p style="font-size: 45px;">Lets get in touch and talk about your next project.</p>
+        <form action="">
+            <input class="inp" type="text" placeholder="Name">
+            <input class="inp" type="email" placeholder="Email">
+            <input class="inp" type="text" placeholder="Subject">
+            <input class="inp" type="text" placeholder="Comment">
+        </form>
+        <div class="but">
+            <button>SEND MESSAGE</button>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="https://www.w3schools.com/w3images/map.jpg" alt="error" style="width:4000px;">
+    </div>
+</body>
+
+</html>
